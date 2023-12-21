@@ -41,6 +41,7 @@ ensenso::ros::Time MonoCamera::capture() const
   if (params.captureTimeout > 0)
   {
     capture.parameters()[itmTimeout] = params.captureTimeout;
+    ENSENSO_INFO(nh, "Timeout set to %d", params.captureTimeout);
   }
   capture.execute();
 
