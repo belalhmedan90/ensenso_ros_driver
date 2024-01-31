@@ -43,4 +43,18 @@ nodelet manager. -->
         <param name="stereo_ns" type="string" value="$(arg stereo_ns)" />
         <param name="mono_ns" type="string" value="$(arg mono_ns)" />
     </node>
+
+    <node pkg="nodelet" type="nodelet" name="DIP_Register" args="load depth_image_proc/register /manager_" output="screen">
+        <!-- Inputs.  -->
+        <remap from="rgb/camera_info" to="mono/rectified/camera_info" />
+        <remap from="depth/camera_info" to="stereo/depth/camera_info" />
+        <remap from="depth/image_rect" to="stereo/depth/image" />
+        <!-- Outputs. -->
+        <remap from="stereo/depth/image" to="/camera/aligned_depth_to_color/image_raw" />
+        <remap from="depth_registered/camera_info" to="/camera/aligned_depth_to_color/camera_info" />
+        <remap from="/mono/rectified/image" to="mono/depth/image" />
+
+        <!-- Parameters. -->
+        <param name="queue_size" type="int" value="5" />
+    </node>
 </launch>

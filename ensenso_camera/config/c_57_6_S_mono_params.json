@@ -1,0 +1,253 @@
+{
+	"Calibration": {
+		"BinningShift": [
+			0,
+			0
+		],
+		"Camera": [
+			[
+				1299.019359637213710812,
+				0,
+				0
+			],
+			[
+				0,
+				1300.365205647420225432,
+				0
+			],
+			[
+				901.451390157436208028,
+				595.933039607988121134,
+				1
+			]
+		],
+		"Distortion": {
+			"K1": -0.470729405325118422,
+			"K2": 0.245708422169610197,
+			"K3": -0.069030744147730291,
+			"Rx": -0.001825626846842354,
+			"Ry": -0.000597772718747227,
+			"T1": -0.000102788751998878,
+			"T2": 0.000641133466191238
+		},
+		"Resolution": [
+			1920,
+			1200
+		]
+	},
+	"EepromFormat": {
+		"Calibration": {
+			"Current": -2147483644,
+			"Latest": -2147483644
+		}
+	},
+	"EepromId": 0,
+	"FirmwareUpdateVersion": null,
+	"FirmwareVersion": "1.2.10",
+	"Images": {
+		"Raw": 13351162804.069360733032226562,
+		"Rectified": 13351162804.069360733032226562,
+		"WithOverlay": null
+	},
+	"Link": {
+		"Rotation": {
+			"Angle": 0.108850923111880729,
+			"Axis": [
+				-0.009071077966994306,
+				-0.999781234649261275,
+				-0.018846707609434639
+			]
+		},
+		"Target": "233076",
+		"Translation": [
+			-29.091851077223779498,
+			-0.025683441589779865,
+			-6.822246465864028941
+		]
+	},
+	"ModelName": "C57-6-S",
+	"Parameters": {
+		"Capture": {
+			"AutoExposure": true,
+			"AutoGain": true,
+			"Binning": 1,
+			"Exposure": 10.010622070312498622,
+			"ForceGrayscale": false,
+			"FrontLight": {
+				"Brightness": 1,
+				"Enabled": true
+			},
+			"Gain": 3.79999995231628418,
+			"ImageBuffer": {
+				"Count": 1,
+				"OverflowPolicy": "DiscardOld",
+				"Size": 128
+			},
+			"MaxAutoExposureAndGainAdjustment": 0,
+			"MaxFlashTime": 100,
+			"MaxGain": 9.5,
+			"Mirror": {
+				"Horizontal": false,
+				"Vertical": false
+			},
+			"TargetBrightness": 130,
+			"TriggerMode": "Internal"
+		},
+		"IO": {
+			"Input": "/Cameras/233076-Color/Parameters/IO/Lines/\\0/Status",
+			"Lines": [
+				{
+					"Mode": "Input",
+					"Name": "Line0",
+					"Status": false
+				},
+				{
+					"Mode": "Low",
+					"Name": "Line1",
+					"Status": false
+				}
+			],
+			"Output": "/Cameras/233076-Color/Parameters/IO/Lines/\\1"
+		},
+		"Overlay": {
+			"Text": {
+				"Angle": 0,
+				"Color": [
+					255,
+					0,
+					0
+				],
+				"Mirror": {
+					"Horizontal": false,
+					"Vertical": false
+				}
+			}
+		},
+		"TransportLayer": {
+			"BandwidthLimit": 950
+		}
+	},
+	"ResolvedLink": {
+		"Rotation": {
+			"Angle": 0.108850923111880729,
+			"Axis": [
+				-0.009071077966994306,
+				-0.999781234649261275,
+				-0.018846707609434639
+			]
+		},
+		"Translation": [
+			-29.091851077223779498,
+			-0.025683441589779865,
+			-6.822246465864028941
+		]
+	},
+	"Sensor": {
+		"GlobalShutter": true,
+		"Port": {
+			"Bandwidth": 1000,
+			"DHCP": false,
+			"Gateway": null,
+			"IpAddress": "172.25.1.239",
+			"IpSubnetMask": "255.255.255.0",
+			"MAC": "78:52:4a:00:11:60",
+			"MaximumTransmissionUnit": 1500,
+			"NetworkAdapter": {
+				"Gateway": null,
+				"IpAddress": "172.25.1.231",
+				"IpSubnetMask": "255.255.255.0",
+				"MAC": "bc:e9:2f:67:bb:38",
+				"Name": "eno1"
+			},
+			"Type": "Ethernet"
+		},
+		"Size": [
+			1920,
+			1200
+		],
+		"Temperature": null
+	},
+	"SerialNumber": "233076-Color",
+	"Status": {
+		"Available": false,
+		"Calibrated": true,
+		"FirmwareSupportsModel": true,
+		"IsApprovedFirmwareVersion": true,
+		"IsSuppliedFirmwareVersion": true,
+		"LocalEepromFile": false,
+		"LowBandwidth": false,
+		"Open": true,
+		"Overtemperature": false,
+		"Paired": false,
+		"ValidCameraFirmware": true,
+		"ValidFirmware": true,
+		"ValidIpAddress": true,
+		"ValidProjectorFirmware": true
+	},
+	"Type": "Monocular",
+	"_NxLibVersion": {
+		"CodeMeter": {
+			"HasLicense": false,
+			"Status": "CodeMeter API could not be loaded."
+		},
+		"FirmwareVersion": {
+			"C5x": {
+				"Build": 0,
+				"Major": 1,
+				"Minor": 2
+			}
+		},
+		"NxLib": {
+			"Build": 1590,
+			"Day": 10,
+			"Hash": "e6de5b2e2339b988bf796634eaef686152fba469",
+			"Major": 3,
+			"Minor": 6,
+			"Month": 1,
+			"Year": 24
+		},
+		"PartFinder": {
+			"HasLicense": false
+		},
+		"Projector": {
+			"FirmwareVersion": {
+				"Application": 36,
+				"Bootloader": 18
+			}
+		},
+		"RayTracing": {
+			"HasLicense": false
+		},
+		"SystemInfo": {
+			"Architecture": "x64",
+			"CPU": {
+				"Cores": 6,
+				"Feature": {
+					"Avx2": true,
+					"PopCnt": true
+				},
+				"Threads": 12
+			},
+			"CUDA": {
+				"Devices": [
+					{
+						"ClockRate": 1335,
+						"ComputeCapability": "7.5",
+						"Cores": 1536,
+						"Integrated": false,
+						"Memory": 5945,
+						"Name": "NVIDIA GeForce GTX 1660 Ti with Max-Q Design"
+					}
+				],
+				"ErrorText": "",
+				"Version": 11040
+			},
+			"Memory": 15789,
+			"OperatingSystem": "Linux"
+		},
+		"UEye": {
+			"Status": "No UEye driver loaded."
+		}
+	},
+	"_Timestamp": "2024-01-31T09:21:20"
+}
